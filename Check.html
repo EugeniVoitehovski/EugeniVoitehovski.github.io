@@ -1,0 +1,34 @@
+<!-- 
+Лабораторная работа 1 по дисциплине ЛОИС
+гр. 721702
+Выполнил студент: Войтеховский Евгений
+Вариант2: проверить является ли строка формулой логики высказываний.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+          <title>Войтеховский Лаб1 Тест</title>
+            <link rel="stylesheet" type="text/css" href="test.css" />
+      
+    </head>
+        <script src="Lab1Voit.js"></script>
+        <script src="Test.js"></script>
+    <body>
+         <ul>
+    <li><a href="Lab1Voit.html">Главная</a></li>
+    <li><a href="Check.html">Тесты</a></li>
+  </ul>
+        Формула: <input id="inputFormula" disabled>
+            <div id="answer_input">
+                <p><input id="radiobtn1" name="radio_button" type="radio" value="0"> Да</p>
+                <p><input  id="radiobtn2" name="radio_button" type="radio" value="0"> Нет</p>
+            </div>
+            <button id="check" onclick="test()">Проверить</button>
+        <p>
+            <button id="next" onclick="next()">Далее</button>
+            <button id="prev" onclick="previous()">Назад</button>
+        </p>
+         <div id="output"></div>
+    </body>
+</html>

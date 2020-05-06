@@ -1,0 +1,115 @@
+/*
+Лабораторная работа 1 по дисциплине ЛОИС
+гр. 721702
+Выполнил студент: Войтеховский Евгений
+Вариант2: проверить является ли строка формулой логики высказываний.
+*/
+body {
+ margin: auto;
+ background: #90EE90;
+}
+input{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid#40382D;
+    margin-top: 10px;
+    text-decoration: none;
+    position: fixed;
+    top: 50px;
+}
+#radiobtn1{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid#40382D;
+    margin-top: 10px;
+    text-decoration: none;
+    position: fixed;
+    top: 85px;
+    left: 30px;
+}
+
+#radiobtn2{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid#40382D;
+    margin-top: 10px;
+    text-decoration: none;
+    position: fixed;
+    top: 120px;
+    left: 30px;
+}
+#check{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .3em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FF4500;
+  border-radius: 3px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+  position: fixed;
+  top: 65px;
+  left: 300px;
+  width: 100px;
+    height: 30px;
+} 
+#check:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+#check:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+
+#prev{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .3em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #0000FF;
+  border-radius: 3px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+  position: fixed;
+  top: 135px;
+  left: 300px;
+  width: 100px;
+    height: 30px;
+} 
+#prev:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+#prev:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+#next{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .3em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #0000FF;
+  border-radius: 3px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+  position: fixed;
+  top: 100px;
+  left: 300px;
+  width: 100px;
+    height: 30px;
+} 
+#next:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+#next:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+#output{
+  position: fixed;
+  top: 65px;
+  left: 450px;
+}
+
