@@ -112,7 +112,7 @@ class Validator {
 
     validate(expression) {
         if (this.simplify(expression, new RegExp(this.SYMBOL)) === this.SIMPLIFIED_SYMBOL ||
-            this.simplify(expression, new RegExp(this.BINARY_FORMULA)) === this.SIMPLIFIED_SYMBOL) {
+            this.simplify(this.simplify(expression, new RegExp(this.BINARY_FORMULA)), new RegExp(this.SYMBOL)) === this.SIMPLIFIED_SYMBOL) {
             return expression;
         } else {
             throw new SyntaxError("Not valid formula");
